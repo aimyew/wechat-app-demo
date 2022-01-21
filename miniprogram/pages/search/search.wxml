@@ -1,0 +1,10 @@
+<view class="container">
+    <text>search</text>
+    <view>
+        <navigator url="/pages/test/test">跳转test页面，可以返回</navigator>
+        <navigator url="/pages/test/test" redirect>页面跳转，无法返回</navigator>
+        <navigator url="/pages/logs/logs" open-type="switchTab">切换 Tab</navigator>
+        <button bindtap="doSout">sout</button>
+        <button bindtap="doSout" data-value="321">sout</button>
+    </view>
+</view>
